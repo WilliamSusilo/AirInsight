@@ -1,7 +1,7 @@
 // OpenWeatherMap API Service
 // API Key - Ganti dengan API key kamu dari https://openweathermap.org/api
 
-const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY || "4d37375e9dd5b48487d0dacca80b6ebb";
+const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 const GEO_URL = "https://api.openweathermap.org/geo/1.0";
 
